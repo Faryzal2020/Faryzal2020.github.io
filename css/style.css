@@ -1,0 +1,32 @@
+.background { margin: 0px; 
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat scroll; 
+	background-attachment: fixed;
+	background-size: cover;}
+.mainpage { display: block; position: relative; margin: auto; margin-top: 10vh; width: 600px; height: 700px; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #d6d6d6; border-radius: 15px;}
+.mainpage, .MPheader { border-top-left-radius: 15px; border-top-right-radius: 15px; }
+
+.sideBar {background: #d6d6d6; height: 400px; width: 90px; 
+	position: absolute; left: -120px; border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.MPheader { background: #254b60; height: auto; }
+.pageTitle { font-family: Arial, Helvetica, sans-serif; padding: 20px; color: white; text-shadow: -1px -2px 0 rgba(0,0,0,0.3);}
+
+.MPbody { background: #d6d6d6; overflow: auto; display: flex; height: auto; margin-top: 0px;}
+.wrapper { width: 100%; height: 100%; margin-top: 0px; }
+.pagesWrapper { margin: 0px 10px 20px 10px; }
+.pages { margin-bottom: 20px; border-left: 5px solid #4c4c4c; padding-left: 10px; padding-right: 20px; background: #dce2e5; overflow: hidden;}
+h2, p { font-family: Tahoma, Geneva, sans-serif;}
+h3 { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; font-weight: normal; margin-bottom: 0px; }
+h2 {border-bottom: 2px solid #ccc; font-weight: normal; padding: 0 0 5px 20px; margin-top: 0px;}
+
+.button_rounded{border-color:#26759E;border-width: 0px 0px 0px 0px;border-style: solid; float: right;
+	box-shadow: #B4B5B5 3px 3px 3px; border-radius: 25px; font-size:25px; font-family:arial, helvetica, sans-serif; margin-bottom: 10px;
+	padding: 10px 30px 10px 30px; text-decoration:none; display:inline-block; text-shadow: -1px -1px 0 rgba(0,0,0,0.3); font-weight:bold; color: #FFFFFF; background-color: #3093C7;
+ 	background-image: linear-gradient(to bottom, #3093C7, #1C5A85); filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3093C7, endColorstr=#1C5A85);
+}
+.button_rounded:hover{ border-color:#26759E;border-width: 0px 0px 0px 0px;border-style: solid; float: right; background-color: #133D5B;
+ 	background-image: linear-gradient(to bottom, #255d7a, #255d7a); filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759E, endColorstr=#133D5B);
+}
