@@ -1,3 +1,4 @@
+
 .background { margin: 0px; 
 	background-image: url("../img/bg.jpg");
 	background-repeat: no-repeat scroll; 
@@ -8,9 +9,11 @@
 	background-color: #d6d6d6; border-radius: 15px;}
 .mainpage, .MPheader { border-top-left-radius: 15px; border-top-right-radius: 15px; }
 
-.sideBar {background: #d6d6d6; height: 400px; width: 90px; 
+.sideBar {background: #d6d6d6; height: 314px; width: 90px; 
 	position: absolute; left: -120px; border-radius: 15px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.sideBar .buttonsContainer { padding: 18px; }
+.sideBar .buttonsContainer i { padding-bottom: 5px; font-size:65px }
 .MPheader { background: #254b60; height: auto; }
 .pageTitle { font-family: Arial, Helvetica, sans-serif; padding: 20px; color: white; text-shadow: -1px -2px 0 rgba(0,0,0,0.3);}
 
@@ -30,3 +33,4 @@ h2 {border-bottom: 2px solid #ccc; font-weight: normal; padding: 0 0 5px 20px; m
 .button_rounded:hover{ border-color:#26759E;border-width: 0px 0px 0px 0px;border-style: solid; float: right; background-color: #133D5B;
  	background-image: linear-gradient(to bottom, #255d7a, #255d7a); filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759E, endColorstr=#133D5B);
 }
+.disabled { cursor:not-allowed; pointer-events: none; background-image: linear-gradient(to bottom, #848484, #848484); }
